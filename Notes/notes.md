@@ -191,6 +191,7 @@ builder.Services.AddTransient<TransientService>();
 builder.Services.AddScoped<ScopedService>();
 builder.Services.AddSingleton<SingletonService>();
 
+
 PROGRAM.CS VS STARTUP.CS : 
 
 Old style (before .NET 6): Program.cs + Startup.cs
